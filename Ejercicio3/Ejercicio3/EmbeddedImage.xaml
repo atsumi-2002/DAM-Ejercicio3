@@ -11,6 +11,9 @@
                        HorizontalOptions="CenterAndExpand"/>
                 <Image Source="{local2:ImageResource
                        Ejercicio3.prueba.jpg}"/>
+                <Label Text="by Atsumi Amaya" FontSize="Micro"
+                   VerticalOptions="EndAndExpand"
+                   HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

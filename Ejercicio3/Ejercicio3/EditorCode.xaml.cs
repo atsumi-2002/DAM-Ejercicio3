@@ -17,7 +17,15 @@ namespace Ejercicio3
 			InitializeComponent ();
             StackLayout stack = new StackLayout();
             var MyEditor = new Editor { Text = "I am an Editor" };
+            var labelmark = new Label
+            {
+                Text = "by Atsumi Amaya",
+                FontSize = Device.GetNamedSize(NamedSize.Micro, typeof(Label)),
+                VerticalOptions = LayoutOptions.EndAndExpand,
+                HorizontalOptions = LayoutOptions.Center
+            };
             stack.Children.Add(MyEditor);
+            stack.Children.Add(labelmark);
             Content = stack;
 		}
 	}

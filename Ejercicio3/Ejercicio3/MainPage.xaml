@@ -27,7 +27,7 @@
         </StackLayout>
         <StackLayout>
             <Label Text="by Atsumi Amaya" FontSize="Micro"
-                   VerticalOptions="End"
+                   VerticalOptions="EndAndExpand"
                    HorizontalOptions="CenterAndExpand"/>
         </StackLayout>
     </StackLayout>

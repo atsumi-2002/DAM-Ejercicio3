@@ -30,10 +30,17 @@ namespace Ejercicio3
                 Text = "This is underlined text with strikethrough",
                 TextDecorations = TextDecorations.Underline | TextDecorations.Strikethrough
             };
-
+            var labelmark = new Label
+            {
+                Text = "by Atsumi Amaya",
+                FontSize = Device.GetNamedSize(NamedSize.Micro, typeof(Label)),
+                VerticalOptions = LayoutOptions.EndAndExpand,
+                HorizontalOptions = LayoutOptions.Center
+            };
             stack.Children.Add(underlineLabel);
             stack.Children.Add(strikethroughLabel);
             stack.Children.Add(bothLabel);
+            stack.Children.Add(labelmark);
             Content = stack;
         }
 	}

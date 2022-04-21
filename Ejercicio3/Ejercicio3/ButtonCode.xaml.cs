@@ -34,7 +34,7 @@ namespace Ejercicio3
             };
             button.Clicked += async (sender, args) => await label.RelRotateTo(360, 1000);
 
-            Label labelmark = new Label
+            var labelmark = new Label
             {
                 Text = "by Atsumi Amaya",
                 FontSize = Device.GetNamedSize(NamedSize.Micro, typeof(Label)),

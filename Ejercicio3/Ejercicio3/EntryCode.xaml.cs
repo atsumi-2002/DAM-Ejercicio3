@@ -17,7 +17,15 @@ namespace Ejercicio3
 			InitializeComponent ();
             StackLayout stack = new StackLayout();
             var entry = new Entry { Text = "This is a read-only Entry" };
+            var labelmark = new Label
+            {
+                Text = "by Atsumi Amaya",
+                FontSize = Device.GetNamedSize(NamedSize.Micro, typeof(Label)),
+                VerticalOptions = LayoutOptions.EndAndExpand,
+                HorizontalOptions = LayoutOptions.Center
+            };
             stack.Children.Add(entry);
+            stack.Children.Add(labelmark);
             Content = stack;
 		}
 	}
